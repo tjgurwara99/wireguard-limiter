@@ -1,0 +1,44 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:wireguard-notifier}",
+            "name": "Debug CoreChecks",
+            "target": "CoreChecks",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug CoreChecks"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:wireguard-notifier}",
+            "name": "Release CoreChecks",
+            "target": "CoreChecks",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release CoreChecks"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:wireguard-notifier}",
+            "name": "Debug WireGuardLimiter",
+            "target": "WireGuardLimiter",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug WireGuardLimiter"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:wireguard-notifier}",
+            "name": "Release WireGuardLimiter",
+            "target": "WireGuardLimiter",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release WireGuardLimiter"
+        }
+    ]
+}
